@@ -1,0 +1,37 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "images/reklaim-icon128.png",
+         "16": "images/reklaim-icon16.png",
+         "24": "images/reklaim-icon24.png",
+         "32": "images/reklaim-icon32.png",
+         "48": "images/reklaim-icon48.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "description": "Take back control of your Internet experience with Reklaim by staying on top of any data breaches on the sites you visit",
+   "externally_connectable": {
+      "matches": [ "https://*.killi.io/*", "https://*.reklaimyours.com/*" ]
+   },
+   "homepage_url": "https://reklaimyours.com",
+   "icons": {
+      "128": "images/reklaim-icon128.png",
+      "16": "images/reklaim-icon16.png",
+      "24": "images/reklaim-icon24.png",
+      "32": "images/reklaim-icon32.png",
+      "48": "images/reklaim-icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmnXWS7V2kkzuAKtUuL+D6aGpdylKx2Bqt+bEqpF3FP+vE88r6Pls1/VHfi1LuwqtpLvFg1hGepI3DYMfh6fGhQw04Ur7PZLxoWky4blbJJOa4toTpnlpfAwqXDfVdGjBC5K6nrSyulA/Wkqr+nY5mNRFns28JNtISNB1F+1RrTg6tsxSEmzVVFmbrZDRRkKmzMUu1TyBt9hKyrVY6GN6ZED9iNO3FDcCXGZ6rOWg+7xC6r1ie2+jE65oJEmRG+3s9NP/FN9Zq83sQThUy1ngbl8jlG+3nqKDIU/KRkcFSRKrO+SbiZZPppuK3NMAfK6gnT091GaAWYdT9JSifyQeBwIDAQAB",
+   "manifest_version": 2,
+   "name": "Reklaim for Chrome",
+   "offline_enabled": false,
+   "options_page": "settings.html",
+   "permissions": [ "webNavigation", "tabs", "storage", "alarms", "webRequest", "webRequestBlocking", "\u003Call_urls>" ],
+   "short_name": "Reklaim for Chrome",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "5.6.0"
+}
